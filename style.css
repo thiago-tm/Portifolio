@@ -49,23 +49,40 @@ body{
     font-weight: 400;
     font-size: 24px;
 }
+
 .apresentacao__links__link{
     display: flex;
+
+    /*A propriedade justify-content controla o posicionamento dos 
+    elementos filhos ao longo do eixo principal e também ajuda a distribuir 
+    o espaço livre entre eles. Com o valor center, os elementos serão centralizados 
+    em seu elemento pai, mas sem espaços entre si.*/
     justify-content: center;
+    
     gap: 16px;
+    
     /* background-color: #22D4FD; */
     width: 378px;
+
     text-align: center;
     border: 2px solid #22D4FD;
     border-radius: 8px;
     font-size: 24px;
+
     /*primeiro número horizontal e segundo vertical*/
     padding: 21.5px 0;
+
     /*tira a decoração do link*/
     text-decoration: none;
+    
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+/*Fazendo o botão interagir quando passamos o mouse encima*/
+.apresentacao__links__link:hover{
+    background-color: #272727;
 }
 
 .apresentacao__foto{
