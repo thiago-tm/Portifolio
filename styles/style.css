@@ -4,7 +4,7 @@
 :root{
     --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
-    --cor-tercearia: #2c6f94   ;
+    --cor-tercearia: #3f7ea0   ;
     --cor-hover: #272727;
 
     --fonte-primaria: "Krona One", sans-serif;
@@ -43,10 +43,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -79,7 +80,7 @@ body{
     font-size: 1.5re,;
 }
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     display: flex;
 
     /*A propriedade justify-content controla o posicionamento dos 
@@ -89,7 +90,7 @@ body{
     justify-content: center;
     
     gap: 16px;
-    width: 378px;
+    width: 50%;
 
     text-align: center;
     border: 2px solid var(--cor-tercearia);
@@ -108,15 +109,13 @@ body{
 }
 
 /*Fazendo o botão interagir quando passamos o mouse encima*/
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
 }
 
-.apresentacao__foto{
-    display: flex;
-    width: 600px;
-    height: 750px;
-    border-radius: 10px;
+.apresentacao__imagem{
+   width: 50%;
+   border-radius: 15px;
 }
 
 .rodape{
@@ -127,4 +126,24 @@ body{
     background-color:var(--cor-tercearia);
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+
+/*limite de tamanho de tela para a imagem ir para a mesma linha do texto*/
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    
+    .apresentacao__conteudi{
+        width: auto;
+    }
 }
