@@ -124,7 +124,7 @@ body{
     font-family: var(--font-secundaria);
     color: var(--cor-primaria);
     background-color:var(--cor-tercearia);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 

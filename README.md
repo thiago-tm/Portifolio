@@ -1,6 +1,9 @@
-# Portfólio Olá, Bem vindo ao meu projeto de portfólio.
+# Olá, Esse é o meu projeto de portfólio.
 
-![image] ![alt text](fotoportifolio.jpeg)
+### Portfolio: https://portifoliothiago-coral.vercel.app/
+### Linkedin:https://www.linkedin.com/in/thiago-tinfre-marcelino-247812262/
+
+![alt text](./assets/fotoportifolio.jpeg)
 
 ## Ferramentas utilizadas:
 
